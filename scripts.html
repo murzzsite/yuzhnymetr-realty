@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Скрипты продаж — Южный Метр</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo">
+      <span class="logo__mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 21V10.5L12 4L20 10.5V21H14V14H10V21H4Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+      <span class="logo__text">Южный <span>Метр</span></span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="materials.html" class="btn btn--ghost btn--sm">Все материалы</a>
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="section__tag">Скрипты продаж</span>
+  <h1>Что говорить, когда клиент уже тёплый</h1>
+  <p>Заявка с сайта — это ещё не сделка. Разговор про ипотеку часто упирается в страх «не одобрят» и сомнение «а вдруг дороже, чем кажется». Ниже — готовые формулировки на каждый типовой момент разговора.</p>
+</main>
+
+<section class="container doc-section">
+  <h2>Первый звонок по заявке</h2>
+  <div class="script-block">
+    <h3>Открытие разговора</h3>
+    <p><span class="who">Вы:</span> «Здравствуйте! Меня зовут Анна, я по вашей заявке на подбор квартиры в новостройке. Удобно сейчас пару минут, чтобы понять, что вам нужно, и подобрать варианты?»</p>
+    <p><span class="who">Клиент:</span> «Да, удобно».</p>
+    <p><span class="who">Вы:</span> «Расскажите: рассматриваете конкретный район или под бюджет? И как планируете — своими деньгами, ипотекой, есть ли материнский капитал?»</p>
+  </div>
+
+  <h2>Работа с типовыми возражениями</h2>
+  <div class="script-block">
+    <h3>«Мне нужно подумать»</h3>
+    <p><span class="who">Клиент:</span> «Спасибо, я подумаю».</p>
+    <p><span class="who">Вы:</span> «Конечно, решение серьёзное. Скажите, что именно хочется обдумать — сумму платежа, сам район или боитесь, что не одобрят ипотеку? Так я пришлю то, что действительно снимет вопрос, а не общую подборку».</p>
+  </div>
+  <div class="script-block">
+    <h3>«Боюсь, что не одобрят ипотеку»</h3>
+    <p><span class="who">Клиент:</span> «У меня была просрочка пару лет назад, наверное, откажут».</p>
+    <p><span class="who">Вы:</span> «Это частая ситуация, и она решаема. Я посмотрю вашу кредитную историю и показатель долговой нагрузки, подскажу, что можно поправить за 2-3 месяца, и подберу банк, который реально одобряет с таким профилем. Заявку в банк подаём бесплатно — сначала проверим шансы, потом решите, двигаться дальше или нет».</p>
+  </div>
+  <div class="script-block">
+    <h3>«А сколько стоят ваши услуги?»</h3>
+    <p><span class="who">Клиент:</span> «А какая у вас комиссия за подбор?»</p>
+    <p><span class="who">Вы:</span> «Для вас всё бесплатно — подбор, оформление ипотеки, сопровождение сделки до получения ключей. Нашу работу оплачивает застройщик, цена квартиры для вас от этого не меняется».</p>
+  </div>
+  <div class="script-block">
+    <h3>«Нет денег на первый взнос»</h3>
+    <p><span class="who">Клиент:</span> «Мы бы хотели, но на первый взнос пока не накопили».</p>
+    <p><span class="who">Вы:</span> «По ряду жилых комплексов сейчас действуют программы с нулевым или минимальным первым взносом, а также можно использовать материнский капитал как взнос без своих денег сверху. Пришлю вам конкретные варианты под вашу семью».</p>
+  </div>
+
+  <h2>Закрытие на встречу или сделку</h2>
+  <div class="script-block">
+    <h3>Финальный шаг</h3>
+    <p><span class="who">Вы:</span> «Из того, что обсудили, наиболее подходящий вариант — [название ЖК], платёж около [сумма] в месяц. Предлагаю сегодня-завтра подать документы на предварительное одобрение — это бесплатно и ни к чему не обязывает, а мы будем точно знать сумму, на которую можно рассчитывать. Удобно?»</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Южный Метр. Материалы подготовлены под ваш оффер.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

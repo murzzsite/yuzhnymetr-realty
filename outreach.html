@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Скрипт холодных сообщений — Южный Метр</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo">
+      <span class="logo__mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 21V10.5L12 4L20 10.5V21H14V14H10V21H4Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+      <span class="logo__text">Южный <span>Метр</span></span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="materials.html" class="btn btn--ghost btn--sm">Все материалы</a>
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="section__tag">Скрипт холодных сообщений</span>
+  <h1>Как писать первым, если не хотите только ждать заявки</h1>
+  <p>Подходит для тех, кто когда-то интересовался ипотекой в комментариях, писал в старые заявки или подписан на канал, но сам не обращался. Задача первого сообщения — не продать, а получить ответ.</p>
+</main>
+
+<section class="container doc-section">
+  <h2>Первое сообщение</h2>
+  <div class="script-block">
+    <h3>Тем, кто раньше интересовался ипотекой</h3>
+    <p><span class="who">Вы:</span> «Здравствуйте! Видела ваш вопрос про семейную ипотеку — сейчас как раз действуют выгодные условия по нескольким ЖК в Ростове. Подскажите, вопрос ещё актуален, или уже нашли квартиру?»</p>
+  </div>
+  <div class="script-block">
+    <h3>Тем, кто оставлял старую заявку и пропал</h3>
+    <p><span class="who">Вы:</span> «Здравствуйте! Вы оставляли заявку на подбор квартиры — уточняю, актуально ли ещё? Появились новые варианты, в том числе без первоначального взноса, могу прислать в двух словах».</p>
+  </div>
+
+  <h2>Ответ на «а вы кто»</h2>
+  <div class="script-block">
+    <h3>Когда спрашивают, откуда вы</h3>
+    <p><span class="who">Клиент:</span> «А вы кто вообще, откуда у вас мой номер?»</p>
+    <p><span class="who">Вы:</span> «Меня зовут Анна, я подбираю квартиры в новостройках Ростова-на-Дону — вы оставляли заявку [дата/площадка], поэтому пишу. Если неактуально — просто скажите, больше не побеспокою».</p>
+  </div>
+
+  <h2>Прогрев до созвона</h2>
+  <div class="script-block">
+    <h3>После первого ответа</h3>
+    <p><span class="who">Клиент:</span> «Да, ещё думаем».</p>
+    <p><span class="who">Вы:</span> «Понимаю. Расскажите коротко: рассматриваете район, бюджет и как с первоначальным взносом? Пришлю 2-3 конкретных варианта с расчётом платежа — без звонка, просто текстом, чтобы вы сами посмотрели».</p>
+  </div>
+  <div class="script-block">
+    <h3>Если не отвечают сразу</h3>
+    <p><span class="who">Вы:</span> «Не тороплю с ответом — если вопрос про квартиру станет актуальным, буду рада помочь с подбором и ипотекой, для вас это бесплатно».</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Южный Метр. Материалы подготовлены под ваш оффер.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
